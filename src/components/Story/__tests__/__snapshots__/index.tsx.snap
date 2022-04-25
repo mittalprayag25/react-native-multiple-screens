@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Story  should match snapshot 1`] = `
+Array [
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginHorizontal": 5,
+        "marginVertical": 10,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      onPress={[Function]}
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginHorizontal": 5,
+        }
+      }
+      testID="30827210-story"
+    >
+      story1
+    </Text>
+    <Text
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    >
+      ($
+      user
+      )
+    </Text>
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginHorizontal": 5,
+        "marginVertical": 10,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      onPress={[Function]}
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginHorizontal": 5,
+        }
+      }
+      testID="30827211-story"
+    >
+      story2
+    </Text>
+    <Text
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    >
+      ($
+      user1
+      )
+    </Text>
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginHorizontal": 5,
+        "marginVertical": 10,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      onPress={[Function]}
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "marginHorizontal": 5,
+        }
+      }
+      testID="30827212-story"
+    >
+      story3
+    </Text>
+    <Text
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    >
+      ($
+      user3
+      )
+    </Text>
+  </View>,
+]
+`;
+
+exports[`Story with no records should match snapshot 1`] = `null`;

@@ -1,3 +1,8 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+/**
+ * @format
+ */
+
+import { AppRegistry } from 'react-native';
+import App from './App';
+
+AppRegistry.registerComponent('HackerNewsApp', () => App);
