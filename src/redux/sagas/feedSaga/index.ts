@@ -72,7 +72,7 @@ function* getKidsFeed(action: any): any {
     yield getNestedComments(newData);
 
     const feedObj = {};
-    newData.forEach((element, index) => {
+    newData.forEach((element) => {
       if (element && element.feed) {
         feedObj[element.id] = element.feed;
       }
@@ -85,8 +85,8 @@ function* getKidsFeed(action: any): any {
 }
 
 function* getKids(newData) {
-  const listArr = [];
-  newData.forEach((item) => {
+  const listArr = [] as any;
+  newData.forEach((item: any) => {
     item.feed.kids && listArr.push(item.feed.kids);
   });
   let merged = [].concat.apply([], listArr);

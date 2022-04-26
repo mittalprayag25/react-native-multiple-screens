@@ -15,9 +15,24 @@ const styles = StyleSheet.create({
   subSection: {
     color: 'black',
   },
-  comments: {
-    flexDirection: 'column',
-    justifyContent: 'space-around',
+  story: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginVertical: 10,
+    marginHorizontal: 5,
+  },
+  storyHeader: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    marginHorizontal: 5,
+  },
+  storyAuthor: {
+    marginLeft: 10,
+  },
+  more: {
+    fontSize: 20,
+    color: 'green',
+    alignSelf: 'center',
   },
 });
 
